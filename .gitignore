@@ -1,0 +1,174 @@
+############################################
+# OS / SYSTEM
+############################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Thumbnails
+.Spotlight-V100
+.Trashes
+
+# System files
+ehthumbs.db
+Thumbs.db
+
+
+############################################
+# JAVA / SPRING BOOT / GRADLE
+############################################
+HELP.md
+.gradle
+build/
+target/
+out/
+BOOT-INF/
+META-INF/
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Gradle config
+gradle-app.setting
+.gradle/
+**/build/
+**/out/
+
+# Eclipse Buildship cache
+.gradle/
+build/
+
+# Ignore generated log files
+*.log
+
+
+############################################
+# ENVIRONMENT & SECRETS
+############################################
+.env
+.env.*
+*.local
+*.secret
+*.key
+*.pem
+*.jks
+*.p12
+*.keystore
+*.properties.local
+secrets/
+
+
+############################################
+# IDE SPECIFIC
+############################################
+
+### VS Code ###
+.vscode/
+.history/
+*.code-workspace
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ build dirs
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# IntelliJ cache
+.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/libraries
+
+# Annotation processors
+.apt_generated/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+############################################
+# PYTHON VENV (macOS uses these often)
+############################################
+venv/
+.env/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+############################################
+# NODE (in case frontend exists)
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+dist/
+
+
+############################################
+# DOCKER
+############################################
+docker-data/
+docker-compose.override.yml
+*.pid
+*.cid
+
+
+############################################
+# LOGS / TEMP / CACHE
+############################################
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.cache-loader/
+*.swp
+*.swo
+
+
+############################################
+# MISC (highly recommended)
+############################################
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Virtual Machine crash logs (rare)
+*.hprof
+
+# Entrypoint scripts generated runtime
+*.pid
+
+# Local testing files
+test-output/
+reports/
