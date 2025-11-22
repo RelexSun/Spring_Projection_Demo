@@ -20,7 +20,6 @@ Thumbs.db
 ############################################
 # JAVA / SPRING BOOT / GRADLE
 ############################################
-README.md
 .gradle
 build/
 target/
